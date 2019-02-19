@@ -1,3 +1,6 @@
+// For loop example
+// Author Mark Clifford
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,8 +13,7 @@ int main()
     scanf(" %u", &count);
 
     // sum integers from 1 to count
-    for(unsigned int i = 1; i <= count; ++i)
-        sum += i;
+    for(unsigned int i = 1; i <= count; sum += i++)
 
     printf("\nTotal of the first %u numbers is %u\n", count, sum);
 
