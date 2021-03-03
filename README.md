@@ -2,3 +2,4 @@
 01. Companies Challenge
 02. Weekly Pay calculation
 03. For loop example
+04. Three function examples
